@@ -10,11 +10,35 @@ body{
     background-color: #e3edf7;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 .progress{
     position: relative;
+}
+input{
+    outline-color: rgba(110, 61, 196, 0.9);
+    line-height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    font-weight: bold;
+    width: 300px;
+    margin-right: 15px;
+}
+input::placeholder{
+    opacity: 0.8;
+}
+.button{
+    background-color: rgba(110, 61, 196, 0.9);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: medium;
+    color: white;
 }
 .inner{
     height: 180px;
