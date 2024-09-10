@@ -9,4 +9,28 @@ body{
     padding: 0;
     background-color: #e3edf7;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    position: relative;
+}
+.inner{
+    height: 180px;
+    width: 180px;
+    border: 25px solid #ffffff;
+    border-radius: 50%;
+}
+svg{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+circle{
+    fill:none;
+    stroke: black;
+    stroke-width: 25px;
+    stroke-dasharray: 474;
+    stroke-dashoffset: 200;
 }
